@@ -1,0 +1,135 @@
+/*Общее----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+*{
+    box-sizing: border-box;    
+}
+body{
+    margin: 0;
+    position: relative;    
+    background-color: #F7F7F7;
+    color: #252525;
+    font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+}
+
+
+/*Шапка----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.header{
+    position: fixed;
+    width: 100%;
+    padding: 16px;
+    border-bottom: 2px solid #E9E9E9;
+    background-color: #F7F7F7;
+    top: 0;
+}
+.header-content{
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;  
+}
+.link{
+    text-decoration: none;
+    color: #005BFF;
+    transition: color .5s;
+}
+.link:hover{
+    color: #0050E0;
+}
+.header-link{
+    margin: 0 16px;
+}
+.logo{
+    height: 24px;
+}
+
+
+/*Основной блок--------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+.title{
+    margin-top: 16px;
+    margin-bottom: 48px;
+    font-family: 'Yeseva One', cursive;
+    font-size: 32pt;
+    color: #414141;
+}
+.section-title{
+    border-left: 8px solid #005BFF;
+    color: #414141;
+    padding: 0 16px;
+    margin-top: 16px;
+    font-family: 'Yeseva One', cursive;
+}
+.b-in-text{
+    color: #414141;
+}
+.me{
+    background-color: #E9E9E9;
+    padding-top: 58px;
+}
+.about-me{
+    width: 1110px;
+    margin: 0 auto;
+    padding-top: 32px;
+    padding-bottom: 32px;
+    display: flex;
+}
+.img{
+    border: 8px solid #F7F7F7;
+    border-radius: 32px;
+}
+.text-about-me{
+    margin-left: 60px;
+}
+.about-me-block{
+    margin-bottom: 16px;
+}
+.story{
+    width: 1110px;
+    margin: 32px auto;
+    display: flex;
+    justify-content: space-between;
+}
+.story-block{
+    width: 30%;
+}
+.list{
+    padding-left:16px;
+}
+.list-item{
+    margin-bottom: 8px;
+}
+
+
+/*Футер----------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #F7F7F7;
+    border-top: 2px solid #E9E9E9;
+    text-align: center;
+    padding: 16px;
+}
+.footer-content{
+    width: 1110px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contacts{
+    display: flex;
+    align-items: center;
+}
+.contact{
+    margin-right: 48px;
+    display: flex;
+    align-items: center;
+}
+.contact-icon{
+    height: 24px;
+    margin-right: 16px;
+}
